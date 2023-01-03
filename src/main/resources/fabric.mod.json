@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "defaultresources",
+  "version": "${version}",
+  "name": "DefaultResources",
+  "description": "A tool for loading and extracting resources provided by mods or by users.",
+  "authors": [
+    "Nerjal",
+    "Luke"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.lukebemish.defaultresources.DefaultresourcesClientInit"
+    ],
+    "main": [
+      "io.github.lukebemish.defaultresources.DefaultresourcesInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": ">= 1.19 <1.19.3"
+  }
+}
