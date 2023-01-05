@@ -9,7 +9,7 @@
     "Luke"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "LGPLv3",
   "environment": "*",
   "entrypoints": {
     "client": [
