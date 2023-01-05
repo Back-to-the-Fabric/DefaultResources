@@ -9,7 +9,7 @@
     "Luke"
   ],
   "contact": {},
-  "license": "LGPLv3",
+  "license": "LGPL-3.0-or-later",
   "environment": "*",
   "entrypoints": {
     "client": [
